@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X.UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Contacto</title>
+    <!--Definición Metadatos-->
+    <link rel="shortcut icon" href="../public/img/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../Public/css/stylecontacto.css">
+    <meta name="description" content="Contáctanos para tus detalles personalizados">
+    <meta name="author" content="kevin duque moira londoño">
+    <meta name="keywords" content="Contacto, Detalles, Anchetas, Croche">
+    <meta name="application-name" content="Sunshine">
+    <meta name="generator" content="VSCode">
+    <!--Enlaces Hojas de Estilo y Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=DM+Serif+Display&family=Dancing+Script&family=Great+Vibes&family=Handlee&family=Mali:wght@200&display=swap" rel="stylesheet">    <!--Enlace iconos de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!--Contenedor banner con imagen de fondo y logo-->
+        <div class="logo">
+            <img class="imagen" src="../public/img/logoSunshine.png" alt="Logo">
+        </div>
+        <div class="contenedor_header">
+            <div class="nav">
+                <nav>
+                    <a href="index.html"><i class="fas fa-house"></i> INICIO</a>
+                    <a href="servicios.html"><i class="fas fa-gift"></i> SERVICIOS</a>
+                    <a href="productos.html"><i class="fas fa-basket-shopping"></i> PRODUCTOS</a>
+                    <a href="nosotros.html"><i class="fas fa-users"></i> NOSOTROS</a>
+                    <a href="contacto.html"><i class="fas fa-envelope"></i> CONTACTO</a>
+                    <a href="login.html"><i class="fas fa-user"></i> LOGIN</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Inicio sección contacto-->
+    <section class="contenedor_contacto">
+        <div class="tituloinicial">
+            <h1>Contacto</h1>
+        </div>
+        <div class="titulo2">
+            ¡Escríbenos, queremos ayudarte con tu detalle!
+        </div>
+
+        <div class="columns">
+            <!-- Columna 1: información de contacto-->
+            <div class="column1">
+                <h2><i class="fas fa-circle-info"></i> Información</h2>
+                <p><i class="fas fa-location-dot"></i> Calarcá, Quindío - Colombia</p>
+                <p><i class="fas fa-phone"></i> 317 303 05 86</p>
+                <p><i class="fas fa-envelope"></i> sunshinedetalles@gmail.com</p>
+                <p><i class="fas fa-clock"></i> Lunes a Sábado: 9:00 am - 6:00 pm</p>
+                <p class="mensajeExtra">
+                    También puedes escribirnos por nuestras redes sociales.
+                    <br>
+                    <span>¡Respondemos muy rápido!</span>
+                </p>
+            </div>
+
+            <!--Columna 2: formulario de contacto-->
+            <div class="column2">
+                <h2><i class="fas fa-paper-plane"></i> Envíanos un mensaje</h2>
+                <form class="formulario" action="#" method="post">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="300 000 00 00">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿Cuéntanos qué detalle deseas..." required></textarea>
+
+                    <button type="submit" class="boton"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Final sección contacto-->
+
+        <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://wa.me/573007276032">
+                    <img src="../Public/img/wasa.png" alt="" width="45px" height="45px"></a>
+                <h4>WHATSAPP</h4>
+                <p>317 303 05 86</p>
+            </div>
+
+            <div class="content-foo">
+                <a href="https://instagram.com/sunshine_detalles_?igshid=MzRLODBiNWFLZA==">
+                    <img src="../Public/img/insta3.jfif" alt="" width="45px" height="45px">
+                </a>
+                <h4>INSTAGRAM</h4>
+                <p>sunshine_detalles_</p>
+            </div>
+
+            <div class="content-foo">
+                <a href="https://www.facebook.com/100094751833021/posts/107016532466741/?mibextid=rS40aB7S9Ucbxw6v">
+                    <img src="../Public/img/face.png" alt="" width="45px" height="45px"></a>
+                <h4>FACEBOOK</h4>
+                <p>SunshineDetalles</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Sunshine Design 2024</h2>
+    </footer>
+</body>
+</html>

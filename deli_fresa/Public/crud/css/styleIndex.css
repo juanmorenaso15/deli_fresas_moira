@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Se define color de fondo para la página web index.html*/
+body{
+    background: rgb(252, 245, 183);
+}
+/*Se definen las características de presentación del banner-logo*/
+.logo{
+    margin: auto;
+    width: 100%;
+    height: 35s0px;
+    text-align: center;
+    background: #ffee95 ;
+}
+/*Se configura el tamaño de la imagen utilizada en el banner-logo*/
+.imagen{
+    width: 600px;
+    height: 350px;
+}    
+/*header*/
+header{
+    width: 100%;
+    height: 400px;
+    background: #fffbd5;
+    background: url(../img/fondoInicio.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(206, 150, 81);
+}
+
+nav > a {
+    font-family: 'Mali', cursive;
+    color: rgb(253, 220, 154);
+    font-size: x-large;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/*Estilo aplicado al contenedor triangulo*/
+.triangulo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sobre-nosotros{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.sobre-nosotros > img{
+    width: 350px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+}
+
+.contenido-textos h2{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(250, 227, 100);
+    font-size: 30px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+    text-align: justify;
+}
+
+.sunshine{
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.sunshine span{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(250, 227, 100);
+    font-size: 30px;
+}
+
+.contenido-textos p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+
+footer{
+    background: #f0dfa6;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #463a1b;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: rgb(196, 145, 80);
+    border-bottom: 3px solid rgb(192, 120, 26);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+}
+
+.content-foo p{
+    color: rgb(136, 71, 11);
+    width: 300px;
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+}
+
+.content-foo img{
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .8);
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0;
+    color: #362530;
+}

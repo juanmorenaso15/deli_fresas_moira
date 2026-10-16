@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.infoB{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 80%;
+    height: 120px;
+    padding-top: 20px;
+    background-color: #eec1cb;
+    border-radius: 60px;
+}
+
+.infoB h2{
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.botoncerrar{
+    margin-top: 0;
+    text-align: right;
+    margin-right: 100px;
+}
+
+
+
+.botoncerrar .botonc{
+    font-size: 19px;
+    background-color: #f1738f;
+    cursor: pointer;
+    color: white;
+    padding: 11px 17px;
+    border: none;
+    border-radius: 30px;
+    font-family:  serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+body{
+    overflow-x:hidden ;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "dancing script",cursive;
+    color: #000;
+    text-shadow: 1px 1px 2px #c5c5c5;
+    margin-bottom: 10px;
+    font-size: 65px;
+}
+
+.cajaformulario{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    margin-left: 28%;
+}
+
+.cajaformulario .cajaformu1 a{
+    font-size: 19px;
+    background-color: #f1738f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+
+.cajaformu1 a::placeholder{
+    background-color: #f1ea81;
+
+}
+
+.cajaformulario .cajaformu2 input{
+    color: #000;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: "mali",cursive;
+    font-weight: bolder;
+    border: 2px solid #f56388;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+input::placeholder{
+    color: #000;
+}
+
+button[type=submit]{
+
+    background-color: #f56388;
+    color: white;
+    padding: 11px 17px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: "dm serif display",serif;
+    font-size: 15px;
+}
+
+button[type=submit]:hover{
+    background-color: rgb(206, 150, 81);
+}
+
+button[type=reset]{
+    background-color: #f56388;
+    color: white;
+    padding: 11px 17px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-family: "dm serif display",serif;
+    font-size: 16px;
+}
+
+button[type=resert]:hover{
+    background-color: rgb(206, 150, 81);
+}
+
+table{
+    background-color: #f1ea81;
+    text-align: left;
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+th{
+    font-size: 20px;
+    font-family: "handlee",cursive;
+}
+
+th,td{
+    padding: 22px;
+    font-family: "handlee",cursive;
+}
+thead{
+    background-color: #f1ea81;
+    border-bottom: solid 2px rgb(233, 26, 122);
+    color: rgb(233, 26, 122);
+
+}
+
+a:link,a:visited{
+    background-color: rgb(206, 150, 81);
+    color: beige;
+    padding: 8px 12px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.afooter:link,.afooter:visited{
+    background-color: #facfde;
+}
+
+
+
+/*Se eliminan todos los estilos preconfigurados en los navegadores por defecto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Se define color de fondo para la página web index.html*/
+body{
+    background: rgb(252, 245, 183);
+}
+/*Se definen las características de presentación del banner-logo*/
+.logo{
+    margin: auto;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background:#FFEE95;
+}
+/*Se configura el tamaño de la imagen utilizada en el banner-logo*/
+.imagen{
+    width: 600px;
+    height: 350px;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 400px;
+    background: #fffbd5;
+    background: url(img/fondoinicio.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(206, 150, 81);
+}
+
+nav > a {
+    font-family: 'Mali', cursive;
+    color:rgb(253, 220, 154);
+    font-size: x-large;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/*Estilo aplicado al contenedor triángulo*/
+.triangulo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sobre-nosotros{
+    position: relative;
+    display: flex;
+    margin: 400px 50px;
+    justify-content: space-evenly;
+}
+
+.sobre-nosotros > img{
+    width: 350px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+}
+
+.contenido-textos h2{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(250, 227, 100);
+    font-size: 30px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+    text-align:justify;
+}
+
+.sunshine{
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.sunshine span{
+    font-family: 'DM Serif Display', serif;
+    color:rgb(250, 227, 100);
+    font-size: 30px;
+}
+
+.contenido-textos p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+footer{
+    background: #f0dfa6;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #463a1b;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: rgb(196, 145, 80);
+    border-bottom: 3px solid rgb(192, 120, 26);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+}
+
+.content-foo p{
+    color: rgb(136, 71, 11);
+    width: 300px;
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+}
+
+.content-foo img{
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .8);
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #362530;
+}

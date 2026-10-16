@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background: #EDE574;  /* respaldo para navegadores antiguos */
+    background: linear-gradient(to right, #F8CFAB , #f1ea81); /* degradado */
+}
+
+/*header*/
+
+header{
+    background: url(../img/fondo-regalo3.avif);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo
+.imagen{
+    width: 600px;
+    height: 400px;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(206, 150, 81);
+}
+
+nav > a {
+    font-family: 'Mali', cursive;
+    color: rgb(253, 220, 154);
+    font-size: x-large;
+    text-decoration: none;
+    margin-right: 60px; /*Se reduce de 90px a 60px por los 6 enlaces con iconos*/
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/*Acaba el header*/
+
+/*Empieza contenedor contacto*/
+
+.contenedor_contacto{
+    width: 95%;
+    margin: 20px;
+}
+
+.contenedor_contacto .tituloInicial {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    font-size: 40px;
+    color: #f5d430;
+    text-shadow: 1px 1px 2px #362530;
+    border-bottom: 3px solid rgb(218, 174, 94);
+    margin-bottom: 10px;
+}
+
+.contenedor_contacto .titulo2{
+    font-family: 'Dancing Script', cursive;
+    color: #55182f;
+    font-size: 55px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contenedor_contacto .columns{
+    display: flex;
+    justify-content: space-evenly; /*Reparte el espacio entre las columnas*/
+    margin-top: 20px;
+}
+
+/*Columna 1: información de contacto*/
+
+.contenedor_contacto .column1{
+    width: 400px;
+    font-family: 'Handlee', cursive;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.contenedor_contacto .column1 h2{
+    font-family: 'DM Serif Display', serif;
+    color: #c27818;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor_contacto .column1 p{
+    margin-bottom: 15px;
+    color: #55182f;
+}
+
+.contenedor_contacto .column1 i{
+    color: #c27818;
+    margin-right: 10px;
+}
+
+.contenedor_contacto .mensajeExtra{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contenedor_contacto .mensajeExtra span{
+    color: #f71b5d;
+}
+
+/*Columna 2: formulario*/
+
+.contenedor_contacto .column2{
+    width: 450px;
+    margin-top: 20px;
+}
+
+.contenedor_contacto .column2 h2{
+    font-family: 'DM Serif Display', serif;
+    color: #c27818;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    background: #fffbe0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column; /*Los elementos se acomodan uno debajo del otro*/
+}
+
+.formulario label{
+    font-family: 'Mali', cursive;
+    font-size: 18px;
+    color: #55182f;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea{
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(206, 150, 81);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.formulario .boton{
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+    padding: 12px;
+    background-color: #e6b84c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /*Cambia el cursor a manito*/
+}
+
+.formulario .boton:hover{
+    background-color: #d49a28;
+}
+
+/*Acaba contenedor contacto*/
+
+footer{
+    background: #f7c38c;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #463a1b;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color:rgb(196, 145, 80);
+    border-bottom: 3px solid rgb(192, 120, 26);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+}
+
+.content-foo p{
+    color:rgb(136, 71, 11);
+    width: 300px;
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+}
+
+.content-foo img{
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .8);
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #362530;
+}
